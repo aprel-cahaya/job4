@@ -15,5 +15,8 @@ use App\Http\Controllers\PageController;
 |
 */
 
-Route::get('/', [ProfileController::class, 'index']);
+Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
+Route::get('/about', [PageController::class,'about'])->name('about');
+Route::get('/contact', [PageController::class,'contact'])->name('contact');
 

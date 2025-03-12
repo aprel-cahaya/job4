@@ -8,7 +8,7 @@
                     <h1>profile Pengguna</h1>
                 </div>
                  <div class="card-body">
-                    <img src="{{ asset ('image/' .$profile['profile-picture']) }}"alt="profile picture" width="150">
+                    <img src="{{ asset ($profile['profile_picture']) }}"alt="profile picture" width="150">
                     <h3>{{ $profile['name'] }}</h3>
                     <p>Email:{{ $profile['email'] }}</p>
                     <p>Bio: {{ $profile['bio'] }}</p>
