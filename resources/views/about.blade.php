@@ -31,10 +31,38 @@
     Setelah bertahun-tahun berjuang, akhirnya aku mendapatkan pekerjaan pertamaku. Awalnya penuh dengan kebingungan dan kesalahan, tapi seiring waktu aku mulai terbiasa dan menikmati prosesnya. Dunia kerja mengajarkanku bahwa hidup bukan hanya tentang mencari uang, tetapi juga tentang terus belajar dan berkembang.
     </p>
     <p>
-    Perjalanan ini belum berakhir. Aku masih memiliki banyak impian yang ingin kucapai. Namun, satu hal yang pasti—setiap langkah yang telah kulalui membentuk diriku menjadi seperti
+    Perjalanan ini belum berakhir. Aku masih memiliki banyak impian yang ingin kucapai. Namun, satu hal yang pasti—setiap langkah yang telah kulalui membentuk diriku menjadi seperti Sekarang
     </p>
     </ul>
 </div>
+
+<br><br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <center>
+                <img src="ank1.jpg"  alt="Image 1"  width="150">
+                </center>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <center>
+                <img src="wsd.jpg" alt="Image 2"  width="150">
+                
+                </center>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <center>
+                <img src="krj.jpg" alt="Image 3"  width="150">
+                
+                </center>
+            </div>
+        </div>
+    </div>
+
 <br> <br>
 <div class="card">
         <div class="card-header">
@@ -47,6 +75,7 @@
                 <a href="{{ route('contact')}} " class="btn btn-primary btn-lg">Hubungi Kami</a>
             </div>
     
+</div>
 </div>
 </div>
 
